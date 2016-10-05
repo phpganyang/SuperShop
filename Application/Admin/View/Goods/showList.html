@@ -1,0 +1,132 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>无标题文档</title>
+    <link href="__ADMIN__/css/style.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="__ADMIN__/js/jquery.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+        $(".click").click(function() {
+            $(".tip").fadeIn(200);
+        });
+
+        $(".tiptop a").click(function() {
+            $(".tip").fadeOut(200);
+        });
+
+        $(".sure").click(function() {
+            $(".tip").fadeOut(100);
+        });
+
+        $(".cancel").click(function() {
+            $(".tip").fadeOut(100);
+        });
+
+    });
+        function del(goods_id) {
+            var _this = $('#del_'+goods_id);
+            console.log(_this);
+          $.ajax({
+              url:"{:U('del')}",
+              dataType:'html',
+              type:'post',
+              data:{goods_id:goods_id},
+              success:function (data) {
+                  console.log(data)
+                  if(data==1)
+                  {
+                      _this.parent().parent().remove();
+                  }
+              }
+          })
+        }
+    </script>
+</head>
+
+<body>
+    <div class="place">
+        <span>位置：</span>
+        <ul class="placeul">
+            <li><a href="#">首页</a></li>
+            <li><a href="#">数据表</a></li>
+            <li><a href="#">基本内容</a></li>
+        </ul>
+    </div>
+    <div class="rightinfo">
+        <div class="tools">
+            <ul class="toolbar">
+               <a href="{:U('add')}"> <li><span><img src="__ADMIN__/images/t01.png" /></span>添加</li></a>
+                <li><span><img src="__ADMIN__/images/t02.png" /></span>修改</li>
+                <li><span><img src="__ADMIN__/images/t03.png" /></span>删除</li>
+                <li><span><img src="__ADMIN__/images/t04.png" /></span>统计</li>
+            </ul>
+        </div>
+        <table class="tablelist">
+            <thead>
+                <tr>
+                    <th>
+                        <input name="" type="checkbox" value="" id="checkAll" />
+                    </th>
+                    <th>id</th>
+                    <th>商品名称</th>
+                    <th>商品价格</th>
+                    <th>商品库存</th>
+                    <th>商品重量</th>
+                    <th>商品缩略图</th>
+                    <th>添加时间</th>
+                    <th>操作</th>
+                </tr>
+            </thead>
+            <tbody>
+            <volist name="data" id="vo">
+                <tr>
+                    <td>
+                        <input name="" type="checkbox" value="{$vo.goods_id}" />
+                    </td>
+                    <td>{$vo.goods_id}</td>
+                    <td>{$vo.goods_name}</td>
+                    <td>{$vo.goods_price}</td>
+                    <td>{$vo.goods_number}</td>
+                    <td>{$vo.goods_weight}</td>
+                    <td><img src="{$vo.goods_small_logo}"></td>
+                    <td>{$vo.add_time|date="Y-m-d H:i:s",###}</td>
+                    <td>
+                        <a href="__CONTROLLER__/photos/id/{$vo.goods_id}" class="tablelink">相册</a>
+                        <a href="#" class="tablelink">查看</a> <a href="javascript:;" class="tablelink" id="del_{$vo.goods_id}" onclick="del({$vo.goods_id})"> 删除</a>
+                    <a href="__CONTROLLER__/edit/id/{$vo.goods_id}" class="tablelink">更新</a>
+                    </td>
+                </tr>
+             </volist>
+            </tbody>
+        </table>
+        <div class="pagin">
+            <div class="message">共<i class="blue">{$count}</i>条记录，当前显示第&nbsp;<i class="blue">2&nbsp;</i>页</div>
+            <div class="paginList">
+                {$show}
+            </div>
+        </div>
+        <div class="tip">
+            <div class="tiptop"><span>提示信息</span>
+                <a></a>
+            </div>
+            <div class="tipinfo">
+                <span><img src="__ADMIN__/images/ticon.png" /></span>
+                <div class="tipright">
+                    <p>是否确认对信息的修改 ？</p>
+                    <cite>如果是请点击确定按钮 ，否则请点取消。</cite>
+                </div>
+            </div>
+            <div class="tipbtn">
+                <input name="" type="button" class="sure" value="确定" />&nbsp;
+                <input name="" type="button" class="cancel" value="取消" />
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $('.tablelist tbody tr:odd').addClass('odd');
+    </script>
+</body>
+
+</html>

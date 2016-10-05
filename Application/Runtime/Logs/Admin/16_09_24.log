@@ -1,0 +1,150 @@
+[ 2016-09-24T08:40:48+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttr/type_id/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001362s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.1127s ]
+SQL: SELECT * FROM `sp_attribute` WHERE ( type_id =1 )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001963s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002155s ]
+
+[ 2016-09-24T09:08:02+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttr/type_id/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001756s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `sp_attribute` WHERE ( type_id =1 )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001101s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001191s ]
+
+[ 2016-09-24T09:21:49+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttr/type_id/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001129s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002039s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `sp_attribute` WHERE ( type_id =1 )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001144s ]
+
+[ 2016-09-24T09:23:00+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttr/type_id/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001496s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `sp_attribute` WHERE ( type_id =1 )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000966s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001056s ]
+
+[ 2016-09-24T19:07:57+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttr/type_id/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001947s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `sp_attribute` WHERE ( type_id =1 )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000981s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001066s ]
+
+[ 2016-09-24T19:14:07+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttr/type_id/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001950s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `sp_attribute` WHERE ( type_id =1 )  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000968s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001055s ]
+
+[ 2016-09-24T19:15:37+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttr/type_id/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001360s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `sp_attribute` WHERE ( type_id =1 )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001024s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001120s ]
+
+[ 2016-09-24T19:17:01+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttr/type_id/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001585s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `sp_attribute` WHERE ( type_id =1 )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001063s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001144s ]
+
+[ 2016-09-24T19:18:44+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttr/type_id/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001416s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `sp_attribute` WHERE ( type_id =1 )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001084s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001174s ]
+
+[ 2016-09-24T19:36:42+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttr/type_id/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001479s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `sp_attribute` WHERE ( type_id =1 )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001075s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001163s ]
+
+[ 2016-09-24T20:02:35+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttr/type_id/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001517s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `sp_attribute` WHERE ( type_id =1 )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001092s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001182s ]
+
+[ 2016-09-24T20:04:55+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttr/type_id/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001493s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `sp_attribute` WHERE ( type_id =1 )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000973s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001059s ]
+
+[ 2016-09-24T20:07:59+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttr/type_id/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000975s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001712s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `sp_attribute` WHERE ( type_id =1 )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001157s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001243s ]
+
+[ 2016-09-24T20:10:18+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttr/type_id/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001690s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `sp_attribute` WHERE ( type_id =1 )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001159s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001258s ]
+
+[ 2016-09-24T20:13:23+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttr/type_id/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001184s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002046s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `sp_attribute` WHERE ( type_id =1 )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001151s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001253s ]
+

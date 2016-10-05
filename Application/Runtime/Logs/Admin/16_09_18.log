@@ -1,0 +1,339 @@
+[ 2016-09-18T08:50:17+08:00 ] 127.0.0.1 /index.php/Admin/Goods/add.html
+ERR: 1062:Duplicate entry '' for key 'goods_name'
+ [ SQL语句 ] : INSERT INTO `sp_goods` (`goods_name`,`goods_price`,`goods_number`,`goods_weight`,`goods_introduce`,`add_time`) VALUES ('','','0','0','','1474159817')
+
+[ 2016-09-18T11:48:34+08:00 ] 127.0.0.1 /index.php/Admin/Goods/photos/2
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `sp_goodspics` WHERE ( goods_id= ) 
+
+[ 2016-09-18T12:45:57+08:00 ] 127.0.0.1 /index.php/Admin/Goods/addOk.html
+ERR: 非法操作:addOk
+
+[ 2016-09-18T12:58:14+08:00 ] 127.0.0.1 /index.php/Admin/Goods/addOk.html
+ERR: 非法操作:addOk
+
+[ 2016-09-18T12:59:16+08:00 ] 127.0.0.1 /index.php/Admin/Goods/addOk.html
+ERR: 非法操作:addOk
+
+[ 2016-09-18T16:52:52+08:00 ] 127.0.0.1 /admin/Admin/goods/
+ERR: 无法加载控制器:Admin
+
+[ 2016-09-18T16:53:02+08:00 ] 127.0.0.1 /admin/goods
+ERR: 非法操作:index
+
+[ 2016-09-18T17:17:57+08:00 ] 127.0.0.1 /index.php/Admin/Goods/3
+ERR: 非法操作:3
+
+[ 2016-09-18T17:18:14+08:00 ] 127.0.0.1 /index.php/Admin/Goods/3
+ERR: 非法操作:3
+
+[ 2016-09-18T19:02:49+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del_pic_/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001967s ]
+ERR: 非法操作:del_pic_
+
+[ 2016-09-18T19:02:52+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del_pic_/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001786s ]
+ERR: 非法操作:del_pic_
+
+[ 2016-09-18T19:02:54+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del_pic_/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003758s ]
+ERR: 非法操作:del_pic_
+
+[ 2016-09-18T19:02:55+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del_pic_/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002230s ]
+ERR: 非法操作:del_pic_
+
+[ 2016-09-18T19:05:05+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del_pic_/id2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001472s ]
+ERR: 非法操作:del_pic_
+
+[ 2016-09-18T19:06:13+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del_pic_/id2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002519s ]
+ERR: 非法操作:del_pic_
+
+[ 2016-09-18T19:06:17+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del_pic_/id2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001838s ]
+ERR: 非法操作:del_pic_
+
+[ 2016-09-18T19:07:19+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del_pic_/id/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001680s ]
+ERR: 非法操作:del_pic_
+
+[ 2016-09-18T19:09:05+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del_pic/id/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002062s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001207s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001304s ]
+
+[ 2016-09-18T19:09:13+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del_pic/id/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001479s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001126s ]
+
+[ 2016-09-18T19:09:31+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del_pic/id/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000986s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001660s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001102s ]
+
+[ 2016-09-18T19:09:32+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del_pic/id/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001732s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000988s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001075s ]
+
+[ 2016-09-18T19:09:33+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del_pic/id/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001542s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001020s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001106s ]
+
+[ 2016-09-18T19:09:34+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del_pic/id/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001541s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000993s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001078s ]
+
+[ 2016-09-18T19:10:34+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del_pic/id/3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001649s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001086s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001174s ]
+
+[ 2016-09-18T19:10:41+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del_pic/id/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000982s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001648s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001114s ]
+
+[ 2016-09-18T19:10:50+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del_pic/id/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001947s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000960s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001057s ]
+
+[ 2016-09-18T19:10:56+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del_pic/id/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001451s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000970s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001057s ]
+
+[ 2016-09-18T19:11:57+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del_pic/id/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001768s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001092s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001184s ]
+
+[ 2016-09-18T19:12:03+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del_pic/id/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001682s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001190s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001303s ]
+
+[ 2016-09-18T19:12:06+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del_pic/id/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001348s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000970s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001057s ]
+
+[ 2016-09-18T19:12:07+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del_pic/id/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001379s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000923s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001007s ]
+
+[ 2016-09-18T19:12:13+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del_pic/id/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001575s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001127s ]
+
+[ 2016-09-18T19:12:14+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del_pic/id/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001375s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000964s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001051s ]
+
+[ 2016-09-18T19:12:15+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del_pic/id/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001930s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000986s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001077s ]
+
+[ 2016-09-18T19:12:15+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del_pic/id/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001483s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000955s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001038s ]
+
+[ 2016-09-18T19:12:53+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del_pic/id/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002052s ]
+
+[ 2016-09-18T19:12:58+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del_pic/id/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002378s ]
+
+[ 2016-09-18T19:13:06+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del_pic/id/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001113s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001829s ]
+
+[ 2016-09-18T19:13:46+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del_pic/id/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001708s ]
+
+[ 2016-09-18T19:18:30+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del_pic/id/3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002098s ]
+SQL: SHOW COLUMNS FROM `sp_goodspics` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `sp_goodspics` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001227s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001305s ]
+
+[ 2016-09-18T19:29:36+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del_pic/id/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001008s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001757s ]
+SQL: SHOW COLUMNS FROM `sp_goodspics` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `sp_goodspics` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: DELETE FROM `sp_goodspics` WHERE `id` = 2 [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001329s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001428s ]
+
+[ 2016-09-18T19:30:35+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del_pic/id/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001697s ]
+SQL: SHOW COLUMNS FROM `sp_goodspics` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `sp_goodspics` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: DELETE FROM `sp_goodspics` WHERE `id` = 1 [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001360s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001462s ]
+
+[ 2016-09-18T19:31:29+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del_pic/id/3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001688s ]
+
+[ 2016-09-18T19:34:18+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del_pic/id/4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000888s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001501s ]
+SQL: SHOW COLUMNS FROM `sp_goodspics` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `sp_goodspics` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0004s ]
+SQL: DELETE FROM `sp_goodspics` WHERE `id` = 4 [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001331s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001439s ]
+
+[ 2016-09-18T19:34:42+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del_pic/id/3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001584s ]
+SQL: SHOW COLUMNS FROM `sp_goodspics` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_goodspics` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: DELETE FROM `sp_goodspics` WHERE `id` = 3 [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001304s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001407s ]
+
+[ 2016-09-18T19:35:43+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del_pic/id/5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001539s ]
+SQL: SHOW COLUMNS FROM `sp_goodspics` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `sp_goodspics` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0003s ]
+SQL: DELETE FROM `sp_goodspics` WHERE `id` = 5 [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001300s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001398s ]
+
+[ 2016-09-18T19:35:45+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del_pic/id/5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001672s ]
+SQL: SHOW COLUMNS FROM `sp_goodspics` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `sp_goodspics` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0003s ]
+SQL: DELETE FROM `sp_goodspics` WHERE `id` = 5 [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000933s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001012s ]
+
+[ 2016-09-18T19:36:36+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del_pic/id/7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001443s ]
+SQL: SHOW COLUMNS FROM `sp_goodspics` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `sp_goodspics` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0004s ]
+SQL: DELETE FROM `sp_goodspics` WHERE `id` = 7 [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001286s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001384s ]
+
+[ 2016-09-18T20:06:39+08:00 ] 127.0.0.1 /index.php/Admin/Goods/edit/id/6
+ERR: Think\Controller:diplay方法不存在！
+
+[ 2016-09-18T20:06:51+08:00 ] 127.0.0.1 /index.php/Admin/Goods/edit/id/6
+ERR: 模板不存在:./Application/Admin/View/Goods/edit.html
+

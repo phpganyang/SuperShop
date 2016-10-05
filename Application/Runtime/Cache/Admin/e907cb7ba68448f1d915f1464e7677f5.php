@@ -1,0 +1,75 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>无标题文档</title>
+    <link href="/Public/Admin/css/style.css" rel="stylesheet" type="text/css" />
+    <script language="JavaScript" src="/Public/Admin/js/jquery.js"></script>
+</head>
+
+<body>
+    <div class="place">
+        <span>位置：</span>
+        <ul class="placeul">
+            <li><a href="#">首页</a></li>
+            <li><a href="#">表单</a></li>
+        </ul>
+    </div>
+    <div class="formbody">
+        <div class="formtitle"><span>商品相册</span></div>
+        <?php if($data["pic"] != '' ): ?><li id="photolist" style="border: 1px solid grey;margin-bottom: 20px;">
+        <?php else: ?><li id="photolist" style="border: 0 solid grey;margin-bottom: 0;"><?php endif; ?>
+
+            <?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><label><img src="<?php echo ($vo["pic"]); ?>" width="200" height="200">
+                <a href="javascript:;" class="remove" data="<?php echo ($vo["id"]); ?>">【-】</a>&emsp;&emsp;</label><?php endforeach; endif; else: echo "" ;endif; ?>
+        </li>
+        <form action="<?php echo U('photos');?>" method="post" enctype="multipart/form-data">
+            <ul class="forminfo">
+                <li>
+                    <label>商品图片[<a href="javascript:;" class="add">+</a>]</label>
+                    <input name="goods_pic[]" type="file" />
+                    <input type="hidden" name="goods_id" value="<?php echo ($_GET['id']); ?>">
+                </li>
+                <li>
+                    <label>&nbsp;</label>
+                    <input name="" id="btnSubmit" type="button" class="btn" value="确认保存" />
+                </li>
+            </ul>
+        </form>
+    </div>
+</body>
+<script type="text/javascript">
+$(function() {
+    $('#btnSubmit').on('click', function () {
+        //alert(123);
+        $('form').submit();
+    });
+    //添加一个可以减少的上传商品图片的选项
+    $('.add').on('click',function () {
+        //alert(123);
+        var content = "<li><label>商品图片[<a href='javascript:;' class='del'>-</a>]</label><input name='goods_pic[]'type='file' /></li>";
+        //给爷爷节点增加内容
+           $(this).parent().parent().append(content);
+    })
+    //点击减号去除添加的上传域，因为减号这个值不是真实存在的，可以定义为未来事件，在jquery1.9版本下都不能用on ,bind方法绑定未来事件,只能用live方法
+    $('.del').live('click',function(){
+        $(this).parent().parent().remove();
+    })
+    //点击【-】删除图片，同时删除数据库里的和文件夹里存储的,此处要用到ajax
+    $('.remove').on('click',function () {
+        //ajax传值删减图片需要知道图片的id
+        var id =$(this).attr('data');
+        //重新给this赋值,这里的this和ajax里的this代表的对象不一样,在ajax里代表get
+        var _this=$(this);
+        //构建ajax，用get方法
+        $.get('/index.php/Admin/Goods/del_pic/id/'+id,function (data) {
+            if(data == 1){
+                _this.parent().remove();//如果不加lable的话点击-会删除所有的图片(父类标签是li)，所以给他加个无属性标签
+            }
+
+        })
+    })
+});
+</script>
+</html>

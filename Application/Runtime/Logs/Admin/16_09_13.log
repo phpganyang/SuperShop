@@ -1,0 +1,6 @@
+[ 2016-09-13T09:25:32+08:00 ] 127.0.0.1 /login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001722s ]
+ERR: 无法加载控制器:Test
+

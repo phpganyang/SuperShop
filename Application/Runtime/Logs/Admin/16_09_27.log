@@ -1,0 +1,124 @@
+[ 2016-09-27T19:17:49+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001610s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0098s ]
+SQL: UPDATE `sp_goods` SET `is_del`='1' WHERE ( goods_id=5 ) [ RunTime:0.0522s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002081s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002289s ]
+
+[ 2016-09-27T19:17:51+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001575s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0043s ]
+SQL: UPDATE `sp_goods` SET `is_del`='1' WHERE ( goods_id=5 ) [ RunTime:0.0563s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001011s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001103s ]
+
+[ 2016-09-27T19:17:59+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001439s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0051s ]
+SQL: UPDATE `sp_goods` SET `is_del`='1' WHERE ( goods_id=5 ) [ RunTime:0.2017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002225s ]
+
+[ 2016-09-27T19:18:30+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001134s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002141s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0045s ]
+SQL: UPDATE `sp_goods` SET `is_del`='1' WHERE ( goods_id=5 ) [ RunTime:0.1964s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002575s ]
+
+[ 2016-09-27T19:19:39+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001305s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0045s ]
+SQL: UPDATE `sp_goods` SET `is_del`='1' WHERE ( goods_id=7 ) [ RunTime:0.2051s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001980s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002167s ]
+
+[ 2016-09-27T19:19:46+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001467s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0046s ]
+SQL: UPDATE `sp_goods` SET `is_del`='1' WHERE ( goods_id=7 ) [ RunTime:0.1555s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001430s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001588s ]
+
+[ 2016-09-27T19:22:06+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002749s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0051s ]
+SQL: UPDATE `sp_goods` SET `is_del`='1' WHERE ( goods_id=7 ) [ RunTime:0.0533s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001069s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001155s ]
+
+[ 2016-09-27T19:23:27+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001669s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0053s ]
+SQL: UPDATE `sp_goods` SET `is_del`='1' WHERE ( goods_id=7 ) [ RunTime:0.1305s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000956s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001038s ]
+
+[ 2016-09-27T19:28:03+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001489s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0045s ]
+SQL: UPDATE `sp_goods` SET `is_del`='1' WHERE ( goods_id=6 ) [ RunTime:0.1006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001116s ]
+
+[ 2016-09-27T19:29:57+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001782s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0048s ]
+SQL: UPDATE `sp_goods` SET `is_del`='1' WHERE ( goods_id=6 ) [ RunTime:0.0605s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001136s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001222s ]
+
+[ 2016-09-27T19:30:18+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001677s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0046s ]
+SQL: UPDATE `sp_goods` SET `is_del`='1' WHERE ( goods_id=7 ) [ RunTime:0.2031s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001195s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001279s ]
+
+[ 2016-09-27T19:30:52+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000963s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001782s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0045s ]
+SQL: UPDATE `sp_goods` SET `is_del`='1' WHERE ( goods_id=7 ) [ RunTime:0.2368s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000920s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001005s ]
+
+[ 2016-09-27T19:30:57+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `sp_goods` SET `is_del`='1' WHERE ( goods_id= )
+

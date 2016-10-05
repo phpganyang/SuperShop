@@ -1,0 +1,192 @@
+[ 2016-09-19T14:50:07+08:00 ] 127.0.0.1 /index.php/Admin/Goods/edit.html
+ERR: 1054:Unknown column 'id' in 'where clause'
+ [ SQL语句 ] : UPDATE `sp_goods` SET `upd_time`='1474267807' WHERE ( id=2 )
+
+[ 2016-09-19T16:04:47+08:00 ] 127.0.0.1 /index.php/Admin/Public/3
+ERR: 非法操作:3
+
+[ 2016-09-19T16:09:50+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2016-09-19T16:10:39+08:00 ] 127.0.0.1 /index.php/Admin/Index/logout.html
+ERR: 非法操作:logout
+
+[ 2016-09-19T17:08:11+08:00 ] 127.0.0.1 /admin/goods
+ERR: 非法操作:index
+
+[ 2016-09-19T17:09:46+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del_pic/id/10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000975s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001682s ]
+SQL: SHOW COLUMNS FROM `sp_goodspics` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `sp_goodspics` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0004s ]
+SQL: DELETE FROM `sp_goodspics` WHERE `id` = 10 [ RunTime:0.1010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001544s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001667s ]
+
+[ 2016-09-19T17:09:47+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del_pic/id/9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001666s ]
+SQL: SHOW COLUMNS FROM `sp_goodspics` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `sp_goodspics` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0003s ]
+SQL: DELETE FROM `sp_goodspics` WHERE `id` = 9 [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001301s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001398s ]
+
+[ 2016-09-19T17:09:48+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del_pic/id/8
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001812s ]
+SQL: SHOW COLUMNS FROM `sp_goodspics` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `sp_goodspics` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0004s ]
+SQL: DELETE FROM `sp_goodspics` WHERE `id` = 8 [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001403s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001525s ]
+
+[ 2016-09-19T17:12:08+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del_pic/id/11
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001414s ]
+SQL: SHOW COLUMNS FROM `sp_goodspics` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sp_goodspics` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0004s ]
+SQL: DELETE FROM `sp_goodspics` WHERE `id` = 11 [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001310s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001405s ]
+
+[ 2016-09-19T17:12:08+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del_pic/id/12
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001492s ]
+SQL: SHOW COLUMNS FROM `sp_goodspics` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sp_goodspics` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0004s ]
+SQL: DELETE FROM `sp_goodspics` WHERE `id` = 12 [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001299s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001395s ]
+
+[ 2016-09-19T17:12:08+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del_pic/id/13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001684s ]
+SQL: SHOW COLUMNS FROM `sp_goodspics` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sp_goodspics` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: DELETE FROM `sp_goodspics` WHERE `id` = 13 [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001303s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001400s ]
+
+[ 2016-09-19T17:13:34+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del_pic/id/6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001171s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001900s ]
+SQL: SHOW COLUMNS FROM `sp_goodspics` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `sp_goodspics` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0004s ]
+SQL: DELETE FROM `sp_goodspics` WHERE `id` = 6 [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001321s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001410s ]
+
+[ 2016-09-19T17:14:23+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del_pic/id/15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001755s ]
+SQL: SHOW COLUMNS FROM `sp_goodspics` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `sp_goodspics` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0003s ]
+SQL: DELETE FROM `sp_goodspics` WHERE `id` = 15 [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001318s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001420s ]
+
+[ 2016-09-19T17:26:07+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del_pic/id/14
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001093s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001809s ]
+SQL: SHOW COLUMNS FROM `sp_goodspics` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `sp_goodspics` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0004s ]
+SQL: DELETE FROM `sp_goodspics` WHERE `id` = 14 [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001392s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001489s ]
+
+[ 2016-09-19T17:30:59+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del_pic/id/16
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001734s ]
+SQL: SHOW COLUMNS FROM `sp_goodspics` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `sp_goodspics` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0003s ]
+SQL: DELETE FROM `sp_goodspics` WHERE `id` = 16 [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001385s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001484s ]
+
+[ 2016-09-19T17:31:00+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del_pic/id/18
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001710s ]
+SQL: SHOW COLUMNS FROM `sp_goodspics` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `sp_goodspics` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0004s ]
+SQL: DELETE FROM `sp_goodspics` WHERE `id` = 18 [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001382s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001480s ]
+
+[ 2016-09-19T17:31:01+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del_pic/id/17
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001660s ]
+SQL: SHOW COLUMNS FROM `sp_goodspics` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `sp_goodspics` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0004s ]
+SQL: DELETE FROM `sp_goodspics` WHERE `id` = 17 [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001294s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001399s ]
+
+[ 2016-09-19T17:31:47+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del_pic/id/20
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001699s ]
+SQL: SHOW COLUMNS FROM `sp_goodspics` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `sp_goodspics` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0004s ]
+SQL: DELETE FROM `sp_goodspics` WHERE `id` = 20 [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001282s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001381s ]
+
+[ 2016-09-19T17:31:48+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del_pic/id/19
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000950s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001671s ]
+SQL: SHOW COLUMNS FROM `sp_goodspics` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `sp_goodspics` WHERE `id` = 19 LIMIT 1   [ RunTime:0.0003s ]
+SQL: DELETE FROM `sp_goodspics` WHERE `id` = 19 [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001291s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001386s ]
+
+[ 2016-09-19T17:32:50+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del_pic/id/22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001831s ]
+SQL: SHOW COLUMNS FROM `sp_goodspics` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `sp_goodspics` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0004s ]
+SQL: DELETE FROM `sp_goodspics` WHERE `id` = 22 [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001464s ]
+
+[ 2016-09-19T17:32:51+08:00 ] 127.0.0.1 /index.php/Admin/Goods/del_pic/id/21
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001709s ]
+SQL: SHOW COLUMNS FROM `sp_goodspics` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sp_goodspics` WHERE `id` = 21 LIMIT 1   [ RunTime:0.0003s ]
+SQL: DELETE FROM `sp_goodspics` WHERE `id` = 21 [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001349s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001449s ]
+
